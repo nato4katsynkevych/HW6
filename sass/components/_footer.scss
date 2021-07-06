@@ -1,0 +1,133 @@
+footer {
+	background-color: $footer-bg-color;
+	height: 252px;
+  }
+  .logo.logo-studio {
+	color: $main-title-color;
+	display: block;
+  }
+  .logo-studio {
+	height: 31px;
+	padding-top: 60px;
+  }
+  .adress {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: $main-title-color;
+	padding-top: 18px;
+	margin-top: 18px;
+	margin-bottom: 11px;
+  }
+  .link-f {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: $primary-text-color;
+  }
+  .link-f:last-child {
+	margin-bottom: 60px;
+  }
+  
+  .link-f:first-child {
+	margin-bottom: 60px;
+	margin-top: 41px;
+  }
+  
+  .link2222 {
+	padding-top: 9px;
+  }
+  .footer{
+	display: flex;
+	justify-content:flex-start;
+	align-items: baseline;  
+  }
+  h4 {
+	font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $main-title-color;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  }
+  
+  .soclink{
+   padding: 0;
+   margin: 70px;
+  }
+  .social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background-color:#ffffff1a;
+	transition: background-color $timing;
+	}
+  .social:hover,
+  .social:focus {
+	background-color: $accent-color;
+	transition: background-color $timing;
+	
+  }
+  .icon-footer {
+	width: 20px;
+	height: 20px;
+	fill: $main-title-color;
+	}
+  .form-footer{
+	display: flex;
+	align-items:flex-start;
+  }
+  .footer-input{
+	width: 358px;
+	height: 50px;
+	background: transparent;
+	border: 1px solid hsl(0, 0%, 30%);
+	border-radius: 4px;
+	margin-right: 12px;
+  }
+  .footer-input::placeholder{
+	padding-left: 15px;
+	font-size: 16px;
+  }
+  .subscribe{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 50px;
+	background-color: $accent-color;
+	border: 1px solid $accent-color;
+	border-radius: 4px;
+  
+  
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $main-title-color;
+  margin: 0;
+  padding: 0;  
+  }
+  .subscribe::after{
+	display: inline-block;
+	content: "";
+	width: 24px;
+	height: 24px;
+	background-image: url(/images/send.svg);
+	margin-left: 12px;
+  }

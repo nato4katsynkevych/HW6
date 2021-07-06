@@ -1,0 +1,92 @@
+
+.main-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.nav-nav,
+.site-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-nav .logo {
+	margin-right: 93px;
+}
+.site-nav .item:not(:last-child) {
+	margin-right: 50px;
+}
+.site-nav:last-child {
+	margin-right: 245px;
+}
+.nav-link {
+	display: flex;
+	align-items: center;
+}
+.nav-link .item:not(:last-child) {
+	margin-right: 50px;
+}
+
+
+.nav {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.nav-list:hover,
+.nav-list:focus {
+	color: $accent-color;
+	transition: color $timing;
+}
+.nav-list {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: $title-text-color;
+	// color: var(--title-text-color);
+	transition: color $timing;
+}
+.current::after{
+	position: absolute;
+	top: 92%;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 4px;
+	background-color: $accent-color;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0;
+	margin: 0;
+}
+.line{
+	position: relative;
+}
+.contacts{
+	display: flex;
+	align-items: center;
+}
+.nav-list.current {
+	color: $accent-color;
+}
+.link-nav {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: $primary-text-color;
+	transition: color $timing;
+}
+.icon{
+	fill: $primary-text-color;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	}
+.link-nav:hover,
+.link-nav:hover .icon,
+.icon:hover{
+	color: $accent-color;
+	transition: color $timing, fill $timing;
+	fill: $accent-color;
+}

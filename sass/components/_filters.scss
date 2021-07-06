@@ -1,0 +1,29 @@
+.filters {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+  }
+  
+  .filters__button {
+	color: $title-text-color;
+	background-color: $bg-color;
+	border: 0px;
+	border-radius: 4px;
+	padding: 6px 22px;
+  
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+  }
+  .filters .filters__item:not(:last-child) {
+	margin-right: 8px;
+  }
+  
+  .filters__button:hover,
+  .filters__button:focus {
+	color: $main-title-color;
+	background-color: $accent-color;
+  }

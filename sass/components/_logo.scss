@@ -1,0 +1,18 @@
+.logo {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	margin: 0;
+	height: 31px;
+	min-width: 145px;
+	color: $logo-color;
+}
+.logo > span {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	height: 31px;
+	color: $accent-color;
+}  

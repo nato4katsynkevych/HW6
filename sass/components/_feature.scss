@@ -1,0 +1,48 @@
+.feature{
+	display: flex;
+	justify-content: center;
+  
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+  }
+  .feature__title {
+	margin-bottom: 10px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: $title-text-color;  
+  }
+  .feature .feature__item:not(:last-child) {
+	margin-right: 30px;
+  }
+  .feature__item{
+	width: 270px;
+  }
+  
+  .feature__item::before {
+	display: block;
+	content: '';
+	height: 120px;
+	margin-bottom: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: $bg-color;
+	}
+  .feature__icon-attention::before {
+	background-image: url(/images/project3.jpg);
+  }
+  .feature__icon-punctuality::before {
+	background-image: url(/images/project4.jpg);
+  }
+  .feature__icon-planning::before {
+	background-image: url(/images/project5.jpg);
+  }
+  .feature__icon-modern::before {
+	background-image: url(/images/project6.jpg);
+  }
